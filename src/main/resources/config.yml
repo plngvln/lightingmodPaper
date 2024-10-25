@@ -1,0 +1,21 @@
+# Enable or disable the mod
+modEnabled: true
+
+# Chance of a lightning strike occurring (from 0.0 to 1.0)
+# WARNING! this parameter greatly affects the operation of the server.
+# I do not recommend setting a value greater than 0.7
+lightningChance: 0.5
+
+# Radius around the player where lightning can strike
+lightningRadius: 150
+
+# Enable or disable the use of lightning rods
+lightningRodEnabled: true
+
+# Check interval in ticks (1 tick = 1/20 second)
+# This defines how often the server will check for lightning strikes
+checkInterval: 2  # Default is 2 ticks (0.1 seconds)
+
+# Additional settings for debugging
+# Set to true to enable debug logs for troubleshooting
+debugMode: false

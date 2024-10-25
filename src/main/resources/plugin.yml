@@ -1,0 +1,4 @@
+name: lightingmod_paper
+version: 1.2
+main: com.example.lightingmod_paper.Lightingmodpaper
+api-version: "1.21.2"
