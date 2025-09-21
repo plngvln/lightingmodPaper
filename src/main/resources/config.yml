@@ -6,8 +6,13 @@ modEnabled: true
 # I do not recommend setting a value greater than 0.7
 lightningChance: 0.5
 
-# Radius around the player where lightning can strike
-lightningRadius: 150
+# The radius around the player where lightning can strike randomly.
+# Measured in blocks.
+playerStrikeRadius: 128
+
+# The radius from a potential lightning strike point to search for a lightning rod.
+# A smaller value is better for performance.
+rodSearchRadius: 32
 
 # Enable or disable the use of lightning rods
 lightningRodEnabled: true
@@ -16,6 +21,3 @@ lightningRodEnabled: true
 # This defines how often the server will check for lightning strikes
 checkInterval: 2  # Default is 2 ticks (0.1 seconds)
 
-# Additional settings for debugging
-# Set to true to enable debug logs for troubleshooting
-debugMode: false
